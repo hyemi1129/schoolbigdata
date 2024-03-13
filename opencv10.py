@@ -16,4 +16,4 @@ class Child(Parent):
             print('num :', self.num)
 
 cd = Child(20)
-cd.displayValue()   
+cd.displayValue()
