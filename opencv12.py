@@ -7,7 +7,7 @@ client_socket = socket(AF_INET, SOCK_STREAM)
 
 client_socket.connect((Host, Port))
 client_socket.sendall('안녕!!!'.encode())
-
+    
 data = client_socket.recv(1024)
 print('Received from', repr(data.decode()))
 
